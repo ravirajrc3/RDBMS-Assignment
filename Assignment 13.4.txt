@@ -1,0 +1,13 @@
+4 Ans:
+
+Select fname,lname,city from table1;
+where country='Canada';
+ORDER BY last_name;
+ORDER BY first_name;
+
+5 Ans:
+
+Select first_name,last_name,city from table1;
+where country='Brazil';
+
+6 Ans:

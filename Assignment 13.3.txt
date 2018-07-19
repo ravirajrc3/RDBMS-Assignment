@@ -1,0 +1,14 @@
+1 Ans:
+
+select * from country where first_name = 'B'
+
+2 Ans:
+
+select * from actor where last_name like 'berry';
+
+3 Ans :
+
+select category.name, avg(length)
+from film join film_category using (film_id) join category using (category_id)
+group by category.name
+order by avg(length) desc;
